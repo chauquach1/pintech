@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mercury: "#E5E8E8",
+        sapphire: "#07276C",
+        picton: "#15C1FF",
+        azure: "#1183FD",
+        atlantis: "#9CD632"
       },
     },
   },
