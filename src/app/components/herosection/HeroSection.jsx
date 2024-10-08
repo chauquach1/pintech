@@ -1,4 +1,3 @@
-import Image from "next/image";
 import GrayLogo from "../../public/graphics/CompleteLogoGray.png";
 import ReachOutBtn from "../contact/ReachOutBtn";
 import HeroQuote from "./HeroQuote";
@@ -12,9 +11,11 @@ export default function HeroSection() {
       className="relative flex flex-col flex-grow h-1/2 w-full justify-end items-end bg-white/5 p-4 rounded-lg"
     >
       <HeroBackground />
-      <ReachOutBtn />
+      <div className="flex flex-col h-1/2 w-1/2">
+        <ReachOutBtn />
+      </div>
       <HeroQuote />
-      <p>coming 2024</p>
+      <p className="self-start">{"UNDER CONSTRUCTION..."}</p>
     </div>
   );
 }
