@@ -21,7 +21,7 @@ const fussion = localFont({
 
 export default function MainNav() {
   return (
-    <Navbar>
+    <Navbar isBlurred={false} className="min-h-20">
       <NavbarBrand>
         
       </NavbarBrand>
