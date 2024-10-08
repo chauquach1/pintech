@@ -1,11 +1,9 @@
-import Image from "next/image";
+import HeroSection from "./components/herosection/HeroSection";
 
 export default function Home() {
   return (
-    <div className="">
-      <main className="flex flex-col items-center">
-        <h1 className="text-7xl text-bold text-mercury">Pintech</h1>
-      </main>
-    </div>
+    <main className="relative flex flex-col flex-grow justify-end items-end w-full p-4">
+      <HeroSection />
+    </main>
   );
 }
