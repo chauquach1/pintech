@@ -3,21 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Custom variables */
+  --background: #000000;
+  --foreground: #E5E8E8;
+  
+  /* Custom styles */
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background: var(--background);
+  color: var(--foreground);
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  text: var(--foreground);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  min-height: 100vh;
+  height: 100%;
+  min-width: 100%;
 }
 
 @layer utilities {
