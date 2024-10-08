@@ -5,8 +5,12 @@ import { Link } from "@nextui-org/link";
 
 export default function ReachOutBtn() {
   return (
-    <Button href="/contact" as={Link} className="flex flex-row items-center justify-center text-xl my-auto ms-auto gap-1 w-fit h-fit">
-      <p> {"REACH OUT"} </p>
+    <Button
+      href="https://calendly.com/pintechcollective/intro?back=1&month=2024-10"
+      as={Link}
+      className=" sm:hidden flex flex-row self-start items-center justify-center text-xl my-auto  gap-1 p-2 w-fit h-fit"
+    >
+      {"REACH OUT"}
       <Image
         src={Arrow}
         alt="arrow"
@@ -14,4 +18,4 @@ export default function ReachOutBtn() {
       />
     </Button>
   );
-};
+}
