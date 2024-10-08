@@ -2,6 +2,7 @@ import GrayLogo from "../../public/graphics/CompleteLogoGray.png";
 import ReachOutBtn from "../contact/ReachOutBtn";
 import HeroQuote from "./HeroQuote";
 import HeroBackground from "./HeroBackground";
+import ContactModal from "../contact/ContactModal";
 
 
 export default function HeroSection() {
@@ -12,7 +13,7 @@ export default function HeroSection() {
     >
       <HeroBackground />
       <div className="flex flex-col h-1/2 w-1/2">
-        <ReachOutBtn />
+        <ContactModal />
       </div>
       <HeroQuote />
       <p className="self-start">{"COMING NOVEMBER 2024"}</p>
