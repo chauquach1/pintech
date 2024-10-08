@@ -2,7 +2,7 @@ import HeroSection from "./components/herosection/HeroSection";
 
 export default function Home() {
   return (
-    <main className="justify-end items-end w-full min-h-full h-full">
+    <main className="relative flex flex-col flex-grow justify-end items-end w-full p-4">
       <HeroSection />
     </main>
   );

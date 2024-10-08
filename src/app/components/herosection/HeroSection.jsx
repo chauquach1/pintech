@@ -9,7 +9,7 @@ export default function HeroSection() {
   return (
     <div
       id="hero-container"
-      className="relative flex flex-col h-full w-full justify-end items-end bg-gray-500 p-4"
+      className="relative flex flex-col flex-grow h-1/2 w-full justify-end items-end bg-white/5 p-4 rounded-lg"
     >
       <HeroBackground />
       <ReachOutBtn />
