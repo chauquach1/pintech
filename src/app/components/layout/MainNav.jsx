@@ -11,7 +11,9 @@ import {
 } from "@nextui-org/navbar";
 import {Link} from "@nextui-org/link";
 import {Button} from "@nextui-org/button";
+import Image from "next/image";
 import localFont from 'next/font/local';
+import PinTechColored from "../../public/graphics/PinTechColored.svg";
 
 const fussion = localFont({
   src: '../../fonts/Fussion.ttf',
@@ -27,7 +29,7 @@ export default function MainNav() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex flex-row w-full " justify="center">
         <NavbarItem>
-          <h1 className={fussion.className + " text-gray-400"}>{"PINTECH"}</h1>
+          <Image src={PinTechColored} alt="PinTech" width={200} height={50} />
         </NavbarItem>
       </NavbarContent>
     </Navbar>
