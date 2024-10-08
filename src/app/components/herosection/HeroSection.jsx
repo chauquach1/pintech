@@ -15,7 +15,7 @@ export default function HeroSection() {
         <ReachOutBtn />
       </div>
       <HeroQuote />
-      <p className="self-start">{"UNDER CONSTRUCTION..."}</p>
+      <p className="self-start">{"COMING NOVEMBER 2024"}</p>
     </div>
   );
 }
