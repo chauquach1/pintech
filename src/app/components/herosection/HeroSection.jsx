@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div
       id="hero-container"
-      className="relative flex flex-col flex-grow h-1/2 w-full justify-end items-end bg-white/5 p-4 rounded-lg"
+      className="relative flex flex-col flex-grow h-1/2 w-full justify-end items-end  p-4 rounded-lg"
     >
       <HeroBackground />
       <div className="flex flex-col h-1/2 w-1/2">
