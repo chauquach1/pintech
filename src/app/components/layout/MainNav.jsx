@@ -24,10 +24,8 @@ const fussion = localFont({
 export default function MainNav() {
   return (
     <Navbar isBlurred={false} position="sticky" className="min-h-10">
-      <NavbarBrand>
-        
-      </NavbarBrand>
-      <NavbarContent className="hidden sm:flex flex-row w-full " justify="center">
+
+      <NavbarContent className="sm:flex flex-row w-full " justify="center">
         <NavbarItem>
           <Image src={PinTechColored} alt="PinTech" width={200} height={50} />
         </NavbarItem>

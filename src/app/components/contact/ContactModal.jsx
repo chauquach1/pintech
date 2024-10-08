@@ -16,10 +16,10 @@ import { InlineWidget, PopupWidget, PopupButton } from "react-calendly";
 export default function ContactModal() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   return (
-    <>
+    <div className="flex flex-col flex-grow sm:h-1/2 sm:w-1/2">
       <Button
         onPress={onOpen}
-        className="flex flex-row items-center justify-center text-xl my-auto ms-auto gap-1 w-fit h-fit"
+        className="hidden sm:flex flex-row items-center justify-center text-xl my-auto sm:ms-auto gap-1 w-fit h-fit"
       >
         {"REACH OUT"}
         <Image
@@ -36,14 +36,13 @@ export default function ContactModal() {
                 Thank You For Your Interest in PinTech
               </ModalHeader>
               <ModalBody>
-              <InlineWidget url="https://calendly.com/pintechcollective/intro?back=1&month=2024-10" />
+                <InlineWidget url="https://calendly.com/pintechcollective/intro?back=1&month=2024-10" />
               </ModalBody>
-              <ModalFooter>
-              </ModalFooter>
+              <ModalFooter></ModalFooter>
             </>
           )}
         </ModalContent>
       </Modal>
-    </>
+    </div>
   );
 }
